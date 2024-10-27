@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a0033; /* Dark violet background to match the gif */
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+    color: #ffffff; /* White text */
+    background-image: url('https://thefuzzypineapple.com/wp-content/uploads/2020/03/Rainbow-Gradient-Dark-Violet-Zoom-Virtual-Background.gif'); /* Set gif as background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: black; /* Futuristic neon green */
+    text-shadow: 0 0 10px #FE95EB, 0 0 20px #FE95EB, 0 0 30px #FE95EB; /* Glowing effect */
+  }
+  
+  p {
+    font-size: 1.5rem;
+    color: black; /* Futuristic pink */
+    text-shadow: 0 0 10px #FE95EB, 0 0 20px #FE95EB, 0 0 30px #FE95EB; /* Glowing effect */
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #ff0066; /* Futuristic pink */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 20px #5DC1D8, 0 0 30px #5DC1D8;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3399; /* Slight hover effect */
+    box-shadow: 0 0 30px #ff3399, 0 0 40px #ff3399;
+  }
+  
+  .clickable-object {
+    width: 60px;
+    height: 60px;
+    background-color: #00ffff; /* Neon cyan */
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00ffff, 0 0 25px #00ffff;
+    transition: all 0.3s ease;
+  }
+  
+  .clickable-object:hover {
+    transform: scale(1.2); /* Hover scaling effect */
+    box-shadow: 0 0 30px #00ffff, 0 0 40px #00ffff;
+  }
